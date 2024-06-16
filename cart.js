@@ -395,7 +395,7 @@ window.gibinit = function() {
   
     var title = gib.createElement('h1', 'gib--title', {
       color: '#fff',
-      fontSize: '24px',
+      fontSize: '12px',
       marginBottom: '15px',
       marginTop: '15px'
     });
@@ -405,7 +405,7 @@ window.gibinit = function() {
     var continueButton = gib.createElement('button', 'gib--continue', {
       backgroundColor: '#fff',
       padding: '10px 20px',
-      fontSize: '24px',
+      fontSize: '12px',
       borderRadius: '4px',
       display: 'none'
     });
