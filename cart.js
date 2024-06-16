@@ -390,7 +390,7 @@ window.gibinit = function() {
       color: '#fff',
       fontSize: '12px'
     });
-    version.innerText = 'mod' + gib.GIB_VERSION;
+    version.innerText = 'Degen Den' + gib.GIB_VERSION;
     wrapper.appendChild(version);
   
     var title = gib.createElement('h1', 'gib--title', {
@@ -420,7 +420,7 @@ window.gibinit = function() {
     wrapper.appendChild(continueButton);
   
     var debug = gib.createElement('div', 'gib--debug', {
-      fontSize: '20px',
+      fontSize: '12px',
       color: '#fff',
       marginBottom: '30px',
       lineHeight: '1.1em'
